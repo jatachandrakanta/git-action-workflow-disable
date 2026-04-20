@@ -1,0 +1,12 @@
+name: Disable workflow concept
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+    steps:
+     - name: chandrkanta
+       run: echo "disable workflow vdo devop"
